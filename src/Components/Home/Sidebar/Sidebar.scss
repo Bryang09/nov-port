@@ -1,0 +1,45 @@
+$blue: #3f99e0;
+
+.Sidebar {
+  width: 30%;
+  // background: #f9f9f9;
+  background: #e2e2e28f;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .img {
+    width: 35%;
+    height: 220px;
+    background-position: center center;
+    margin-bottom: 5vh;
+  }
+
+  .Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        color: lightblue;
+        margin: 2vh 0;
+        font-size: 2em;
+        cursor: pointer;
+        color: $blue;
+        text-align: center;
+
+        &:hover {
+          background: darken($blue, 15%);
+          color: #fff;
+          transition-duration: 1s;
+        }
+      }
+    }
+  }
+}
