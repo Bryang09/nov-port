@@ -1,9 +1,11 @@
 $blue: #3f99e0;
+$darkcolor: #324b69;
 
 .Sidebar {
   width: 30%;
   // background: #f9f9f9;
-  background: #e2e2e28f;
+  // background: #e2e2e28f;
+  background: $darkcolor;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -15,6 +17,7 @@ $blue: #3f99e0;
     height: 220px;
     background-position: center center;
     margin-bottom: 5vh;
+    border-radius: 50%;
   }
 
   .Menu {
@@ -27,19 +30,47 @@ $blue: #3f99e0;
       padding: 0;
 
       li {
-        color: lightblue;
+        color: #fff;
         margin: 2vh 0;
         font-size: 2em;
         cursor: pointer;
-        color: $blue;
         text-align: center;
+        font-weight: 300;
 
         &:hover {
-          background: darken($blue, 15%);
+          background: darken($darkcolor, 15%);
           color: #fff;
           transition-duration: 1s;
         }
       }
     }
+  }
+}
+
+.active {
+  background: #192635;
+}
+
+@media screen and (max-width: 1170px) {
+  .Sidebar {
+    .img {
+      width: 80%;
+      border-radius: 0;
+      height: 250px;
+    }
+
+    .Menu {
+      ul {
+        li {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sidebar {
+    display: none;
   }
 }

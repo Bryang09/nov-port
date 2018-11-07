@@ -3,15 +3,15 @@ import React, { Component } from "react";
 import "./Home.scss";
 
 import Sidebar from "../Sidebar/Sidebar";
-import Landing from "./Landing/Landing";
+import Contact from "../Contact/Contact";
 import Nav from "../NavBar/Nav";
 
 class Home extends Component {
   state = {
-    landing: true,
+    landing: false,
     about: false,
     projects: false,
-    contact: false
+    contact: true
   };
 
   onLanding = () => {
@@ -66,7 +66,7 @@ class Home extends Component {
           onContact={this.onContact}
           contact={this.state.contact}
         />
-        <Landing />
+        <Contact />
       </div>
     );
   }

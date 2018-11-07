@@ -3,14 +3,14 @@ import React, { Component } from "react";
 import "./Home.scss";
 
 import Sidebar from "../Sidebar/Sidebar";
-import Landing from "./Landing/Landing";
+import Projects from "../Projects/Projects";
 import Nav from "../NavBar/Nav";
 
-class Home extends Component {
+class Projects_ extends Component {
   state = {
-    landing: true,
+    landing: false,
     about: false,
-    projects: false,
+    projects: true,
     contact: false
   };
 
@@ -66,10 +66,10 @@ class Home extends Component {
           onContact={this.onContact}
           contact={this.state.contact}
         />
-        <Landing />
+        <Projects />
       </div>
     );
   }
 }
 
-export default Home;
+export default Projects_;

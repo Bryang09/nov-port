@@ -1,0 +1,113 @@
+.NavBar {
+  display: flex;
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 2.5vh;
+  background: #fff;
+  font-weight: 700;
+  z-index: 10;
+  flex-direction: column;
+  transform: translateX(-100vw);
+
+  h4 {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    min-width: 100%;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    background: none;
+  }
+}
+
+.Navigation {
+  min-width: 100%;
+  font-size: 15px;
+  display: flex;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+
+    li {
+      margin: 2vh 0;
+      text-transform: uppercase;
+      opacity: 0.8;
+      font-weight: 400;
+      text-align: center;
+      font-size: 1.4em;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.Display-Menu {
+  transform: rotate(90deg);
+  position: relative;
+  z-index: 10;
+}
+
+.NavBtn {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  opacity: 0.8;
+  padding: 0.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+.btn {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #000;
+  opacity: 0.8;
+}
+.Line1 {
+  transform: rotate(45deg);
+  background: #44a6f5;
+  margin-right: 2px;
+}
+.Line2 {
+  display: none;
+}
+.Line3 {
+  background: #44a6f5;
+  transform: translateY(-8px) rotate(-45deg);
+}
+.Menu-Slide {
+  transform: translateX(100vw);
+  transition-duration: 1s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.95;
+}
+
+.Menu-Slideout {
+  transform: translateX(-100vw);
+}

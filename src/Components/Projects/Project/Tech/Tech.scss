@@ -1,0 +1,55 @@
+$primary: #44a6f5;
+$gradient1: #1db8e7;
+$gradient2: #0be290;
+$angular: #ff3333;
+$axios: #f5df44;
+$sass: #f544f0;
+
+.Tech {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 2vh auto 0;
+  flex-wrap: wrap;
+
+  .react,
+  .angular,
+  .axios,
+  .sass {
+    border: 1px solid $primary;
+    margin: 1vh 0.8vw;
+    padding: 10px 30px;
+    border-radius: 35px;
+    color: #fff;
+    font-weight: 400;
+
+    background: $primary;
+  }
+
+  .angular {
+    border: 1px solid $angular;
+    background: #ff3333;
+  }
+
+  .axios {
+    border: 1px solid $axios;
+
+    background: $axios;
+  }
+  .sass {
+    border: 1px solid $sass;
+    background: $sass;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Tech {
+    .react,
+    .angular,
+    .axios,
+    .sass {
+      padding: 7px 25px;
+      font-size: 0.9em;
+    }
+  }
+}

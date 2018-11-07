@@ -1,0 +1,97 @@
+$primary: #44a6f5;
+$gradient1: #1db8e7;
+$gradient2: #0be290;
+$angular: #ff3333;
+$axios: #f5df44;
+$sass: #f544f0;
+
+.Project {
+  height: 100vh;
+
+  .img {
+    height: 40%;
+    width: 90%;
+    padding: 3vh 0;
+    margin: 0 auto 5vh;
+    transform: translateY(10vh);
+  }
+  .projectText {
+    height: 45%;
+    background: radial-gradient(at top left, #fff, #a6a6a6);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin-bottom: 0.9vh;
+      font-weight: 400;
+    }
+
+    h4 {
+      font-weight: 300;
+    }
+
+    .options {
+      display: flex;
+      width: 50%;
+      margin: 3vh auto 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        margin: 0 1.5vw;
+        width: 30%;
+
+        h5 {
+          width: 100%;
+          line-height: 50px;
+          border-radius: 360px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+}
+
+@media screen and (max-width: 768px) {
+  .Project {
+    .projectText {
+      h1 {
+        font-size: 1.8em;
+      }
+      h4 {
+        font-size: 1em;
+        width: 90%;
+        text-align: center;
+      }
+
+      .options {
+        width: 70%;
+        a {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Project {
+    .projectText {
+      .options {
+        a {
+          h5 {
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}

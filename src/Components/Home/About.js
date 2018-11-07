@@ -2,14 +2,14 @@ import React, { Component } from "react";
 
 import "./Home.scss";
 
+import About from "../About/About";
 import Sidebar from "../Sidebar/Sidebar";
-import Landing from "./Landing/Landing";
 import Nav from "../NavBar/Nav";
 
-class Home extends Component {
+class About_ extends Component {
   state = {
-    landing: true,
-    about: false,
+    landing: false,
+    about: true,
     projects: false,
     contact: false
   };
@@ -56,20 +56,11 @@ class Home extends Component {
         <>
           <Nav />
         </>
-        <Sidebar
-          onLanding={this.onLanding}
-          landing={this.state.landing}
-          onAbout={this.onAbout}
-          about={this.state.about}
-          onProjects={this.onProjects}
-          projects={this.state.projects}
-          onContact={this.onContact}
-          contact={this.state.contact}
-        />
-        <Landing />
+        <Sidebar onAbout={this.onAbout} about={this.state.about} />
+        <About />
       </div>
     );
   }
 }
 
-export default Home;
+export default About_;

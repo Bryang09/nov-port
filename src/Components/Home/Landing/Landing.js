@@ -13,17 +13,17 @@ const Landing = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github fa-4x" />
+          <i className="fab fa-github fa-4x" id="gh" />
         </a>
         <a
-          href="www.linkedin.com/in/bryan-gonzalez09"
+          href="https://www.linkedin.com/in/bryan-gonzalez09"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin fa-4x" />
+          <i className="fab fa-linkedin fa-4x" id="li" />
         </a>
         <a href="mailto:bryan.gonzalez1020.bg@gmail.com">
-          <i className="fas fa-envelope fa-4x" />
+          <i className="fas fa-envelope fa-4x" id="mail" />
         </a>
       </ul>
     </div>
