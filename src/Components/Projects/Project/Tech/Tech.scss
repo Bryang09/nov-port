@@ -44,12 +44,14 @@ $sass: #f544f0;
 
 @media screen and (max-width: 768px) {
   .Tech {
+    padding-top: 5vh;
+    width: 90%;
     .react,
     .angular,
     .axios,
     .sass {
       padding: 7px 25px;
-      font-size: 0.9em;
+      font-size: 0.7em;
     }
   }
 }
