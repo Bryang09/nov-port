@@ -23,7 +23,7 @@ class Projects extends Component {
       // prettier-ignore
       { id: 2, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: true, reactrouter: false, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/glasses", demo: "https://bryang09.github.io/glasses/#/" },
       // prettier-ignore
-      { id: 3, src: "movies.jpg", title: "The Movies App", desc: "An application that makes use of the MovieDB api, this app gives a description for any movie.", react: true, reactrouter: false, axios: true,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/movies",  demo: "https://bryang09.github.io/movies/#/" },
+      { id: 3, src: "newmovies.jpg", title: "The Movies App", desc: "An application that makes use of the MovieDB api, this app gives a description for any movie, or show.", react: true, reactrouter: true, axios: true,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/newmovies",  demo: "https://bryang09.github.io/newmovies/#/" },
       // prettier-ignore
       { id: 7, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: false, reactrouter: false, axios: false,  sass: true, angular: true, code: "https://github.com/Bryang09/ng-glasses",  demo: "https://bryang09.github.io/ng-glasses" },
       // prettier-ignore
