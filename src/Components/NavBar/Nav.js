@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-import "./Nav.scss";
 import { NavLink } from "react-router-dom";
+
+import "./Nav.scss";
 
 class NavBar extends Component {
   state = {

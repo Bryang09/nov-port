@@ -1,8 +1,13 @@
-.NavBar {
+.NavBar,
+.NavBtn,
+.MainNav {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .MainNav {
+    display: block;
+  }
   .NavBar {
     display: flex;
     min-width: 100vw;

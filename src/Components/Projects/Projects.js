@@ -17,19 +17,23 @@ class Projects extends Component {
       // prettier-ignore
       {  id: 6, src: "watches.jpg", title: "Watches App", desc: "An online store that specializes in Watches.", react: true, reactrouter: true, axios: true,  sass: false, mern: true, angular: false, code: "https://github.com/Bryang09/watches", demo: "https://intense-bayou-29884.herokuapp.com/#/" },
       // prettier-ignore
+      { id: 5, src: "newshelter.jpg", title: "The Shelter App", desc: "An application that makes use of the PetFinder api, this app will search for any shelter/pet near you.", react: true, reactrouter: true, axios: true,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/newshelter", demo: "https://bryang09.github.io/newshelter/#/" },
+      // prettier-ignore
+      { id: 3, src: "newmovies.jpg", title: "The Movies App", desc: "An application that makes use of the MovieDB api, this app gives a description for any movie, or show.", react: true, reactrouter: true, axios: true,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/newmovies",  demo: "https://bryang09.github.io/newmovies/#/" },
+      // prettier-ignore
+      { id: 9, src: "traveling.jpg", title: 'Traveling App', desc: 'Design for a traveling agency', react: true, reactrouter: true, axios: false,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/traveling", demo: "https://bryang09.github.io/traveling/#/" },
+      // prettier-ignore
       {  id: 0, src: "trainer.png", title: "Trainer App", desc: "A responsive landing page for a personal trainer", react: true, reactrouter: false, axios: false,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/trainer", demo: "https://bryang09.github.io/trainer/#/" },
       // prettier-ignore
       { id: 1, src: "restaurant.jpg", title: "Restaurant App", desc: "A restaurant application for a fictional restaurant", react: true, reactrouter: true, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/restaurant", demo: "https://bryang09.github.io/restaurant/#/" },
       // prettier-ignore
       { id: 2, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: true, reactrouter: false, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/glasses", demo: "https://bryang09.github.io/glasses/#/" },
-      // prettier-ignore
-      { id: 3, src: "newmovies.jpg", title: "The Movies App", desc: "An application that makes use of the MovieDB api, this app gives a description for any movie, or show.", react: true, reactrouter: true, axios: true,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/newmovies",  demo: "https://bryang09.github.io/newmovies/#/" },
+
       // prettier-ignore
       { id: 7, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: false, reactrouter: false, axios: false,  sass: true, angular: true, code: "https://github.com/Bryang09/ng-glasses",  demo: "https://bryang09.github.io/ng-glasses" },
       // prettier-ignore
       { id: 4, src: "recipes.png",  title: "The Recipes App", desc: "An application that makes use of the Food2Fork api, this app will search for any recipe.", react: true, reactrouter: true, axios: true,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/recipe", demo: "https://bryang09.github.io/recipe/#/" },
-      // prettier-ignore
-      { id: 5, src: "shelter.png", title: "The Shelter App", desc: "An application that makes use of the PetFinder api, this app will search for any shelter/pet near you.", react: true, reactrouter: true, axios: true,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/adoption", demo: "https://bryang09.github.io/adoption/#/" },
+
       // prettier-ignore
       { id: 8, src: "trainer.png", title: "The Trainer App", desc: "A responsive landing page for a personal trainer", react: false, reactrouter: false, axios: false,  sass: true, mern:false, angular: true, code: "https://github.com/Bryang09/ng-trainer", demo: "https://bryang09.github.io/ng-trainer" }
     ],
