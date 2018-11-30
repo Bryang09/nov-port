@@ -25,9 +25,9 @@ class Lists extends Component {
         sub2: "Vanilla JavaScript",
         sub2Text:
           "When I started learning Vanilla Js, I struggled learing it because I was attempting to learn it at the same time as jQuery. However, once I realized the benefit of learing the pure JavaScript, I focused all of my attention on it.",
-        sub3: "Rect & ES6",
+        sub3: "React & ES6",
         sub3Text:
-          "After I was comfortbale with Vanilla Js, I began learing React. When it came to React, the part that I struggled with the most wasfiguring out how State and Props work. After I got my head aroundthat, I was able to focus on integrating ES6 and realized thebenefits."
+          "After I was comfortbale with Vanilla Js, I began learing React. When it came to React, the part that I struggled with the most wasfiguring out how State and Props work. After I got my head around that, I was able to focus on integrating ES6 and realized the benefits."
       },
       {
         id: 1,
@@ -104,10 +104,10 @@ class Lists extends Component {
               res.id === 0
                 ? this.onProcess
                 : res.id === 1
-                  ? this.onLearn
-                  : res.id === 2
-                    ? this.onHobbies
-                    : null
+                ? this.onLearn
+                : res.id === 2
+                ? this.onHobbies
+                : null
             }
             className={
               (this.state.process && res.id === 0) ||
@@ -124,10 +124,10 @@ class Lists extends Component {
               res.id === 0 && this.state.process
                 ? { display: "block" }
                 : res.id === 1 && this.state.learn
-                  ? { display: "block" }
-                  : res.id === 2 && this.state.hobbie
-                    ? { display: "block" }
-                    : { display: "none" }
+                ? { display: "block" }
+                : res.id === 2 && this.state.hobbie
+                ? { display: "block" }
+                : { display: "none" }
             }
           >
             <h4
@@ -135,10 +135,10 @@ class Lists extends Component {
                 res.id === 0
                   ? this.onHTML
                   : res.id === 1
-                    ? this.onTreehouse
-                    : res.id === 2
-                      ? this.onFootball
-                      : null
+                  ? this.onTreehouse
+                  : res.id === 2
+                  ? this.onFootball
+                  : null
               }
               className={
                 (this.state.html && res.id === 0) ||
@@ -166,10 +166,10 @@ class Lists extends Component {
                 res.id === 0
                   ? this.onJs
                   : res.id === 1
-                    ? this.onUdemy
-                    : res.id === 2
-                      ? this.onSoccer
-                      : null
+                  ? this.onUdemy
+                  : res.id === 2
+                  ? this.onSoccer
+                  : null
               }
               className={
                 (this.state.js && res.id === 0) ||
@@ -197,10 +197,10 @@ class Lists extends Component {
                 res.id === 0
                   ? this.onES6
                   : res.id === 1
-                    ? this.onYoutube
-                    : res.id === 2
-                      ? this.onMMA
-                      : null
+                  ? this.onYoutube
+                  : res.id === 2
+                  ? this.onMMA
+                  : null
               }
               className={
                 (this.state.es6 && res.id === 0) ||

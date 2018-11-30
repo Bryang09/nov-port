@@ -28,7 +28,8 @@ class Projects extends Component {
       { id: 1, src: "restaurant.jpg", title: "Restaurant App", desc: "A restaurant application for a fictional restaurant", react: true, reactrouter: true, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/restaurant", demo: "https://bryang09.github.io/restaurant/#/" },
       // prettier-ignore
       { id: 2, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: true, reactrouter: false, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/glasses", demo: "https://bryang09.github.io/glasses/#/" },
-
+      // prettier-ignore
+      { id: 10, src: "ng-restaurant.jpg", title: "Angular Restaurant App", desc: "A responsive restaurant website", react: false, reactrouter: false, axios: false,  sass: true, angular: true, code: "https://github.com/Bryang09/ng-restaurant",  demo: "https://bryang09.github.io/ng-restaurant" },
       // prettier-ignore
       { id: 7, src: "glasses.png", title: "The Glasses App", desc: "A responsive landing page for an online glasses retailer", react: false, reactrouter: false, axios: false,  sass: true, angular: true, code: "https://github.com/Bryang09/ng-glasses",  demo: "https://bryang09.github.io/ng-glasses" },
       // prettier-ignore
