@@ -60,6 +60,11 @@ class NavBar extends Component {
                   Contact
                 </NavLink>
               </li>
+              <li>
+                <a href="resume.pdf" target="_blank">
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

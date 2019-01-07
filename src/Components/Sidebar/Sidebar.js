@@ -58,6 +58,11 @@ const Sidebar = props => {
               Contact
             </li>
           </Link>
+          <li>
+            <a href="resume.pdf" target="_blank">
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
     </div>
