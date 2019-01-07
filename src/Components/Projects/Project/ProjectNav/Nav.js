@@ -34,21 +34,29 @@ class NavBar extends Component {
           <div className="Navigation">
             <ul>
               <li>
-                <NavLink exact activeStyle={{ color: "#44a6f5" }} to="/about">
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#fff", fontWeight: 400 }}
+                  to="/about"
+                >
                   About
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   exact
-                  activeStyle={{ color: "#44a6f5" }}
+                  activeStyle={{ color: "#fff", fontWeight: 400 }}
                   to="/projects"
                 >
                   Projects
                 </NavLink>
               </li>{" "}
               <li>
-                <NavLink exact activeStyle={{ color: "#44a6f5" }} to="/contact">
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#fff", fontWeight: 400 }}
+                  to="/contact"
+                >
                   Contact
                 </NavLink>
               </li>
