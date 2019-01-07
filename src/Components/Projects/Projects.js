@@ -23,6 +23,8 @@ class Projects extends Component {
       // prettier-ignore
       { id: 9, src: "traveling.jpg", title: 'Traveling App', desc: 'Design for a traveling agency', react: true, reactrouter: true, axios: false,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/traveling", demo: "https://bryang09.github.io/traveling/#/" },
       // prettier-ignore
+      {  id: 0, src: "anime.jpg", title: "AnimeFinder App", desc: "An application for finding Anime", react: true, reactrouter: true, axios: true,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/anime", demo: "https://bryang09.github.io/anime/#/" },
+      // prettier-ignore
       {  id: 0, src: "trainer.png", title: "Trainer App", desc: "A responsive landing page for a personal trainer", react: true, reactrouter: false, axios: false,  sass: true, mern:false, angular: false, code: "https://github.com/Bryang09/trainer", demo: "https://bryang09.github.io/trainer/#/" },
       // prettier-ignore
       { id: 1, src: "restaurant.jpg", title: "Restaurant App", desc: "A restaurant application for a fictional restaurant", react: true, reactrouter: true, axios: false,  sass: false, mern:false, angular: false, code: "https://github.com/Bryang09/restaurant", demo: "https://bryang09.github.io/restaurant/#/" },
